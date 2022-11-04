@@ -1,6 +1,7 @@
 import random
 import threading
 import os
+import sys
 
 def math(m):
     global n1, n2, c, o, f
@@ -33,7 +34,7 @@ def math(m):
 
 def remove():
     print('You got bite by the Python.')
-    os.remove(__file__)
+    os.remove(os.path.basename(sys.argv[0]))
     exit()
 
 def dead():
