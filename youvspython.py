@@ -33,7 +33,7 @@ def math(m):
         f /= 10
 
 def remove():
-    print('You got bite by the Python.')
+    print('You got bitten by the Python.')
     os.remove(os.path.basename(sys.argv[0]))
     exit()
 
