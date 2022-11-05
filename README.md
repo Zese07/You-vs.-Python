@@ -2,6 +2,7 @@
 Solve and rename fast to avoid getting attacked by the Python.
 
 ## To start:
+- Create a new empty folder for the script.
 - Run the youvspython.py
 
 ## To play:
